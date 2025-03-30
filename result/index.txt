@@ -29,7 +29,7 @@
 29: https://www.gutenberg.org/files/1250/1250-h/1250-h.htm
 30: https://www.gutenberg.org/files/3296/3296-h/3296-h.htm
 31: https://www.gutenberg.org/files/108/108-h/108-h.htm
-32: https://www.gutenberg.org/files/20228/20228-h/20228-h.htm
+32: https://www.gutenberg.org/files/20229/20229-h/20229-h.htm
 33: https://www.gutenberg.org/files/2500/2500-h/2500-h.htm
 34: https://www.gutenberg.org/files/6133/6133-h/6133-h.htm
 35: https://www.gutenberg.org/files/7849/7849-h/7849-h.htm
@@ -48,7 +48,7 @@
 48: https://www.gutenberg.org/files/1998/1998-h/1998-h.htm
 49: https://www.gutenberg.org/files/45506/45506-h/45506-h.htm
 50: https://www.gutenberg.org/files/20203/20203-h/20203-h.htm
-51: https://www.gutenberg.org/files/18490/18490-h/18490-h.htm
+51: https://www.gutenberg.org/files/18492/18492-h/18492-h.htm
 52: https://www.gutenberg.org/files/6087/6087-h/6087-h.htm
 53: https://www.gutenberg.org/files/678/678-h/678-h.htm
 54: https://www.gutenberg.org/files/161/161-h/161-h.htm
@@ -63,7 +63,7 @@
 63: https://www.gutenberg.org/files/1745/1745-h/1745-h.htm
 64: https://www.gutenberg.org/files/2680/2680-h/2680-h.htm
 65: https://www.gutenberg.org/files/1064/1064-h/1064-h.htm
-66: https://www.gutenberg.org/files/3298/3298-h/3298-h.htm
+66: https://www.gutenberg.org/files/3300/3300-h/3300-h.htm
 67: https://www.gutenberg.org/files/220/220-h/220-h.htm
 68: https://www.gutenberg.org/files/398/398-h/398-h.htm
 69: https://www.gutenberg.org/files/2274/2274-h/2274-h.htm
@@ -88,10 +88,10 @@
 88: https://www.gutenberg.org/files/732/732-h/732-h.htm
 89: https://www.gutenberg.org/files/4367/4367-h/4367-h.htm
 90: https://www.gutenberg.org/files/1994/1994-h/1994-h.htm
-91: https://www.gutenberg.org/files/30473/30473-h/30473-h.htm
+91: https://www.gutenberg.org/files/30474/30474-h/30474-h.htm
 92: https://www.gutenberg.org/files/123/123-h/123-h.htm
 93: https://www.gutenberg.org/files/1995/1995-h/1995-h.htm
-94: https://www.gutenberg.org/files/9000/9000-h/9000-h.htm
+94: https://www.gutenberg.org/files/1996/1996-h/1996-h.htm
 95: https://www.gutenberg.org/files/27827/27827-h/27827-h.htm
 96: https://www.gutenberg.org/files/38269/38269-h/38269-h.htm
 97: https://www.gutenberg.org/files/698/698-h/698-h.htm
