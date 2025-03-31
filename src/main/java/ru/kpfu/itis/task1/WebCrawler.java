@@ -1,4 +1,4 @@
-package ru.kpfu.itis;
+package ru.kpfu.itis.task1;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
