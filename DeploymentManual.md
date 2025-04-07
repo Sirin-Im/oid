@@ -11,5 +11,9 @@
     - файл lemmas.txt в директории result/task2 c лемматизированными токенами
     - стоп слова в файле src/main/resources/stopwords.txt
     - список доступных английских слов в файле src/main/resources/words_alpha.txt
+3. Задание:
+    - результат выполнения кода(инвертированный индекс) лежит в result/task3/inverted_index.txt
+    - для выполнения команды достаточно запустить метод main в [BooleanSearchEngine.java](src%2Fmain%2Fjava%2Fru%2Fkpfu%2Fitis%2Ftask3%2FBooleanSearchEngine.java)
+    - все инструкции к командам пишется в консоли после запуска метода main
 
 Если надо посмотреть результат без запуска, то он лежит в корне проекта в папке result
