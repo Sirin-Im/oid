@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты поиска</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .search-box { display: flex; margin-bottom: 20px; }
+        input[type="text"] { flex-grow: 1; padding: 10px; font-size: 16px; }
+        button { padding: 10px 20px; background: #4285f4; color: white; border: none; cursor: pointer; }
+        button:hover { background: #3367d6; }
+        .result { margin-bottom: 15px; padding: 10px; border-bottom: 1px solid #eee; }
+        .pagination { display: flex; justify-content: center; margin-top: 20px; }
+        .pagination a, .pagination span { margin: 0 5px; padding: 5px 10px; }
+        .pagination a { text-decoration: none; color: #4285f4; border: 1px solid #ddd; }
+        .pagination a:hover { background: #f5f5f5; }
+        .pagination span.active { font-weight: bold; color: #000; border: 1px solid #4285f4; background: #f0f7ff; }
+        .info { color: #666; margin-bottom: 20px; }
+        .no-results { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+<h1>Результаты поиска</h1>
+
+<form action="/search" method="get" class="search-box">
+    <input type="text" name="query" th:value="${query}" placeholder="Введите поисковый запрос..." required>
+    <button type="submit">Найти</button>
+</form>
+
+<div class="info" th:text="'Найдено результатов: ' + ${totalResults}"></div>
+
+<div th:if="${totalResults == 0}" class="no-results">
+    По вашему запросу ничего не найдено.
+</div>
+
+<div th:if="${totalResults > 0}">
+    <div th:each="result, iter : ${results}" class="result">
+        <span th:text="${iter.index + 1 + (currentPage - 1) * 10} + '. ' + ${result}"></span>
+    </div>
+
+    <div class="pagination" th:if="${totalPages > 1}">
+        <a th:if="${currentPage > 1}"
+           th:href="@{'/search?query=' + ${query} + '&page=' + ${currentPage - 1}}">← Назад</a>
+
+        <span th:each="i : ${#numbers.sequence(startPage, endPage)}">
+                <a th:if="${i != currentPage}"
+                   th:href="@{'/search?query=' + ${query} + '&page=' + ${i}}"
+                   th:text="${i}"></a>
+                <span th:unless="${i != currentPage}"
+                      class="active"
+                      th:text="${i}"></span>
+            </span>
+
+        <a th:if="${currentPage < totalPages}"
+           th:href="@{'/search?query=' + ${query} + '&page=' + ${currentPage + 1}}">Вперед →</a>
+    </div>
+</div>
+</body>
+</html>
